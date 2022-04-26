@@ -196,5 +196,10 @@ label, input {
     right: 60%;
     bottom: 15%;
   }
+  .img-resort {
+    margin: 6.25rem 20rem auto 0;
+    width: 490px;
+    height: 500px;
+  }
 }
-}
+
