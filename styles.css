@@ -1,0 +1,200 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+/*Title Section*/
+#title {
+  text-align: center;
+}
+
+.background-image {
+  background-image: url(../images/Beach2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 5rem;
+}
+
+/*Services Section*/
+.breakfast-content, .transport-content, .trekking-content {
+  background-color: #f5f3f5;
+  padding: 5%;
+}
+
+.sub-service {
+  padding: 5% 5%;
+}
+
+/*Heading Section*/
+.big-heading {
+  padding: 25% 20%;
+  color: #fff;
+  font-size: 4rem;
+  margin: auto 0;
+}
+
+.h2-color, .service-icon {
+  color: #65cdba;
+  padding: 5% 0 0 5%;
+}
+
+.h2-color-position {
+  color: #65cdba;
+}
+
+/*Booking Section*/
+.booking-section {
+  background-color: #CAF7E3;
+  text-align: center;
+}
+
+label, input {
+  margin: 6% 2%;
+}
+
+.submit-button {
+  margin: 2% 3.5%;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.btn-1:hover {
+  background-color: #65cdba;
+}
+
+.checkavai {
+  text-align: center;
+}
+
+/*Services Section*/
+#services {
+  background-color: #fff;
+}
+
+/*Facilities Section*/
+#facilities {
+  background-color: #EFFFFD;
+}
+
+.img-facilities {
+  margin: 5% 0;
+}
+
+.col-second {
+  text-align: center;
+}
+
+.text-position {
+  text-align: left;
+  margin-left: 9.5%;
+}
+
+.facilities-content {
+  padding-bottom: 7%;
+}
+
+/*About Section*/
+#about {
+  background-color: #fff;
+}
+
+.about-section {
+  width: 300px;
+  height: 300px;
+  text-align: left;
+  margin: 13rem auto auto 20rem;
+  ;
+}
+
+.about-bg-color-dec {
+  background-color: #65cdba;
+  width: 300px;
+  height: 700px;
+}
+
+.img-resort {
+  margin: 6.25rem 20rem auto 6rem;
+  ;
+  border-radius: 5px;
+  width: 700px;
+  height: 500px;
+}
+
+/*Testimonials Section*/
+#testimonials {
+  background-color: #65cdba;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.testimonial-image {
+  width: 25%;
+  padding: 10% 0 5% 0;
+}
+
+.col-third {
+  text-align: center;
+}
+
+.p-testimonial {
+  padding-bottom: 5%;
+  text-align: left;
+  padding-left: 37%;
+}
+
+/*Testimonials Section*/
+#contacts {
+  background-color: #f1eff0;
+}
+
+.contact-p-content {
+  padding: 5% 5% 0 5%;
+}
+
+.contact-icons {
+  padding: 3% 2% 2% 5%;
+}
+
+.fav-icon {
+  margin-right: 2%;
+  color: #65cdba;
+}
+
+/*Media Query section*/
+/*Booking Section*/
+@media (max-width:767.20px) {
+  .booking-section {
+    text-align: left;
+  }
+
+  label, input {
+    text-align: left;
+  }
+
+  .booking-section {
+    text-align: center;
+  }
+
+  label, input {
+    text-align: center;
+  }
+}
+
+@media (max-width:990px) {
+  .col-service {
+    margin: 5%;
+  }
+}
+
+@media (max-width:500px) {
+  .about-section {
+    position: relative;
+    right: 60%;
+    bottom: 15%;
+  }
+}
+}
