@@ -196,6 +196,8 @@ label, input {
     right: 60%;
     bottom: 15%;
   }
+}
+@media (max-width:820px) {
   .img-resort {
     margin: 6.25rem 20rem auto 0;
     width: 490px;
