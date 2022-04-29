@@ -45,6 +45,9 @@ body {
 .h2-color-position {
   color: #65cdba;
 }
+h2,h3{
+  font-family: Montserrat, sans-serif;
+}
 
 /*Booking Section*/
 .booking-section {
